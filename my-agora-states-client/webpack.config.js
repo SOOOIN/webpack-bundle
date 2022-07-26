@@ -6,7 +6,7 @@ module.exports = {
     mode:"production",
   entry: './src/index.js',
   output: {
-    path: path.resolve(__dirname, 'dist'), // './dist'의 절대 경로를 리턴합니다.
+    path: path.resolve(__dirname, '../docs'), // './dist'의 절대 경로를 리턴합니다.
     filename: 'app.bundle.js',
   },
 module: {
